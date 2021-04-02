@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.divination {
+  background: #23424a;
+  color: white;
+  font-weight: 400;
+  line-height: 56px;
+  padding: 100px 0;
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 60%;
+}
+.content p {
+  line-height: 2rem;
+}
+
+.content h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.content button {
+  margin-top: em;
+  font-weight: 700;
+  background: #38cfd9;
+  border-radius: 31.5px;
+  border: 0;
+  padding: 15px 50px;
+}
