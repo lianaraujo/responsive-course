@@ -1,23 +1,16 @@
 /* 
 ////// For this challenge ///////
 
-- You will have to modify the HTML
-
-- You can add new classes in the HTML
-  if you need to
+- All text is in the text.md file
 
 // Requirements
-1. The headings in the first row must be
-   a different color
-2. The two .col at the bottom must go next
-   to one another
-3. The section at the bottom should have
-   a dark background color and a different
-   color of text
-4. I've removed the "gap" that I created,
-   so you'll have to add it back in
+1. Refer to the design specs for the
+   overall layout 
+2. The image should line up with
+   the sidebar in the section
+   below
 
-   */
+*/
 
 *,
 *::before,
@@ -31,20 +24,25 @@ body {
   font-size: 1.3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   font-size: 3rem;
+  margin-top: 0;
 }
 
 .container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 50px;
 }
 
 .row {
   /* display: flex => flex container */
   display: flex;
+  justify-content: space-between;
 
   /* can't use yet */
   /* gap: 100px; */
@@ -52,22 +50,30 @@ h1 {
 
 .col {
   /* these are now flex items */
-  width: 100%;
-  text-align: center;
+  /* width: 100%; */
 }
 
 .col + .col {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+.hero + .container {
+  margin-top: 3em;
 }
 
 .hero {
-  padding: 50px 0;
+  padding: 100px 0;
   background-color: #23424a;
   color: #fff;
 }
 
 .hero__text {
-  width: 60%;
+  width: 62%;
+}
+
+.hero__img {
+  width: 32%;
+  align-self: flex-start;
 }
 
 .hero p {
@@ -90,11 +96,14 @@ h1 {
   opacity: 0.75;
 }
 
-.bottom {
-  background: #136c72;
-  color: white;
+.left {
+  /* width: 62%; */
+  color: #136c72;
 }
 
-.middle h2 {
-  color: #87629a;
+.right {
+  text-align: center;
+  color: white;
+  background: #136c72;
+  padding: 0 0.5em;
 }
