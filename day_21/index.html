@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="conquering responsive layouts" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sign In</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container row">
+        <div class="col col-title">
+          <h1 class="hero__title">
+            Responsive layouts<span class="title-magic">
+              don't have to be a struggle</span
+            >
+          </h1>
+        </div>
+        <div class="col hero__text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            perspiciatis deserunt quibusdam inventore incidunt ut aperiam
+            quisquam vero alias.
+          </p>
+          <a class="btn" href="#">I want to learn</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="container row">
+        <div class="col">
+          <h2>Mobile-first</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            enim ex similique quos nisi minus corrupti quibusdam cum excepturi?
+          </p>
+        </div>
+        <div class="col">
+          <h2>Efficient</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            enim ex similique quos nisi minus corrupti quibusdam cum excepturi?
+          </p>
+        </div>
+        <div class="col">
+          <h2>Done right</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            enim ex similique quos nisi minus corrupti quibusdam cum excepturi?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="container main-row">
+        <div class="col">
+          <h2 class="main-title">It doesn't have to be so hard</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            fuga? Illo fugiat officia, non possimus officiis sed saepe aliquam
+            nisi magni facilis obcaecati atque. Placeat enim sequi impedit
+            accusamus nisi?
+          </p>
+          <img src="img/the-image.jpg" alt="drawn layouts" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+            voluptas aspernatur deserunt expedita et accusantium nostrum
+            consequuntur repellat magnam quaerat odio fuga natus, dignissimos
+            consectetur architecto aut praesentium corporis cumque.
+          </p>
+        </div>
+        <div class="card-row col">
+          <div class="card">
+            <h2 class="card-title">Break it down</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates hic dolorem quos consequatur nihil soluta iste.
+            </p>
+          </div>
+          <div class="card">
+            <h2 class="card-title">Break it down</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates hic dolorem quos consequatur nihil soluta iste.
+            </p>
+          </div>
+          <div class="card">
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates hic dolorem quos consequatur nihil soluta iste.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <h1>just scratching the surface</h1>
+        <div class="row">
+          <div class="col about">
+            <h2>About our company</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur sit expedita, quae tempore mollitia itaque non modi.
+            </p>
+          </div>
+          <div class="col">
+            <h2>Getting around</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Other things</h2>
+            <ul>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">dolore</a></li>
+              <li><a href="#">sut amet</a></li>
+              <li><a href="#">consectetur</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>And more</h2>
+            <ul>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">dolore</a></li>
+              <li><a href="#">sut amet</a></li>
+              <li><a href="#">consectetur</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
